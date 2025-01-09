@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthenticationStatus } from '@nhost/react';
 import { Landing } from './pages/Landing';
+// import { Dashboard } from './pages/Dashboard';
 import { Dashboard } from './pages/Dashboard';
+
 
 function App() {
   const { isAuthenticated, isLoading } = useAuthenticationStatus();

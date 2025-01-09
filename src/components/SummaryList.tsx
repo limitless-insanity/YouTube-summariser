@@ -30,7 +30,7 @@
 //     // Subscribe to real-time changes
 //     const subscription = supabase
 //       .channel('summaries_channel')
-//       .on('postgres_changes', { event: '*', schema: 'public', table: 'summaries' }, 
+//       .on('postgres_changes', { event: '*', schema: '', table: 'summaries' }, 
 //         payload => {
 //           if (payload.new) {
 //             setSummaries(current => {
