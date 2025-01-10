@@ -16,7 +16,7 @@ export function YouTubeForm() {
 
     try {
       // Call n8n webhook with updated URL
-      const response = await fetch('https://dangerous-snail-86.hooks.n8n.cloud/webhook-test/ytube', {
+      const response = await fetch('https://smooth-pig-4.hooks.n8n.cloud/webhook-test/ytube', {
         //https://evil-kangaroo-93.hooks.n8n.cloud/
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
