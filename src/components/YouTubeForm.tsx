@@ -93,7 +93,7 @@ export function YouTubeForm() {
 
     try {
       // Updated URL and body structure to match the new cURL request
-      const response = await fetch('https://d07c-2409-40d4-116-8363-951-31be-a568-fad6.ngrok-free.app/webhook-test/ytube', {
+      const response = await fetch('https://d07c-2409-40d4-116-8363-951-31be-a568-fad6.ngrok-free.app/webhook/ytube', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url: url }), // Sending the URL as "url" key
